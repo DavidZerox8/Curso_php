@@ -1,0 +1,87 @@
+//PHP
+
+Preprocesador de hipertexto. 
+--PHP permite el preprocesamiento de HTML.
+
+Nos permite: 
+• Generar codigo para el servidor. 
+• Diseñar comandos para CMD.
+• Aplicaciones de escritorio. 
+
+PHP es un lenguaje de alto nivel, interpretado y debilmente tipado. 
+
+
+-- Los dominios son nuestra dirección en internet
+-- Los servidores son computadores fisicos especializadas para el alojamiento de recursos. 
+-- VPS son servidores que contienen varias computadores virtuales dentro de si. 
+
+-- Un servidor web es un programa que permite gestionar cualquier petición que llegue al servidor fisico. 
+
+
+• Metodos HTTP: Son formas de de generar solicitudes al servidor. 
+
+-- Get: Genera solicitudes directas al servidor.
+-- Post: Solicita al servidor que almacene información en el servidor. 
+-- PUT: Permite enviar solicitudes para cambiar todo el contenido de la información almacenada en el servidor.
+-- PATCH: Modifica el contenido de la informacíon en el servidor, pero en aspectos especificos. 
+-- Delete: Elimina algun contenido almancenado en el servidor. 
+-- Soft Delete: únicamente oculta la información para el cliente, pero no elimina los datos en el servidor. 
+
+/*Instarlar XAMPP en linux (ubuntu)
+
+sudo add-apt-repository ppa:ondrej/php
+sudo app update //actualizar los repositorios de linux.
+
+sudo app upgrade
+
+sudo apt install php8.0 apache2 //instalar php y apache
+sudo apt install php7.4 //Para tener varias versiones de php
+
+sudo dpkg --get-selections | grep php //saber las versiones de php
+
+php7.4 --version //datos de la version de php y elegir con cual trabajar.
+
+--Podemos instalar varias versiones de php pero no de apache
+
+sudo a2enmod php8.0 //habilita una version de php
+sudo a2dismod php8.0 //deshabilita una version de php
+
+systemctl restart apache2 //reiniciar apache en caso de cambiar la versión de php
+
+cd /var/www/html //ubicacion de los archivos php
+
+sudo rm //borrar archivos
+touch index.php //crear archivos
+
+nano index.php //permite editar archivos en linux.
+ctrl+o //guarda archivos 
+ctrl+x //sale del editor nano
+
+sudo nano /etc/php/8.0/apache2/php.ini  //ubicacion del archivo de configuracion de php v8
+ctrl+w permite buscar dentro del archivo
+
+display-errors = on //habilitarlo para que php nos muestre los errores. 
+
+sudo apt install libapache2-mod-php8.0 //En caso de que no ejecute apache de manera correcta, es necesario instalar este paquete. 
+
+php -a //permite ejecutar una consola dinamica de php
+
+ctrl+c permite salir de la consola dinamica. 
+
+
+/* comandos en la terminal
+
+ls - muestra el listado de cosas en el directorio
+mkdir - crea una carpeta en la ubicacion en la que te encuentres.
+touch - Genera arhivos.
+cat - Muestra el contenido de un archivo. 
+nano "nombre del archivo" - Permite editar un archivo
+rm - permite eliminar archivos
+
+
+
+
+
+
+
+

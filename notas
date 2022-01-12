@@ -72,12 +72,37 @@ ctrl+c permite salir de la consola dinamica.
 /* comandos en la terminal
 
 ls - muestra el listado de cosas en el directorio
+ls -al - Muestra el contenido de la carpeta completo, con información adicional. 
 mkdir - crea una carpeta en la ubicacion en la que te encuentres.
 touch - Genera arhivos.
 cat - Muestra el contenido de un archivo. 
 nano "nombre del archivo" - Permite editar un archivo
 rm - permite eliminar archivos
 
+
+/* Comienzo para programar el php
+-- Sintaxis: Las reglas que dictan como se debe estructurar un lenguaje para que tenga sentido. 
+
+sudo chmod 777 Carpeta //Permite cambiar los accesos de un directorio. 
+
+sudo systemctl start apache2 //iniciar el servicio de apache en linux
+sudo /etc/init.d/apache2 start //ini el servicio de apache en wsl
+
+
+/* Degugging
+El debug permite evaluar como se esta comportando nuestro programa y el flujo de la información
+que maneja.
+
+
+/*variables y constantes
+
+--variables: Son espacios en memoria que almacenan datos, los cuales pueden cambiar a lo largo de la ejecución del programa.
+
+--constantes: Son espacios en memoria que almacena un dato en especifico, pero este valor nunca cambia.
+
+
+/* Tipos de datos
+Un tipo de datos es la forma de diferenciar los datos que tenemos por medio de como se identifica.
 
 
 
